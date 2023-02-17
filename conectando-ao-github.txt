@@ -1,0 +1,13 @@
+Para se conectar ao github através do terminal, utilize os comandos informados ao criar um novo repositório, pré concetando-se com o GitHub através do comando:
+
+git remote add origin https://suaurldorepositorio
+
+Automaticamente o terminal irá pedi suas credenciais, como e-mail e senha para permitir o acesso.
+
+Após feito o commit nos arquivos do Git, para dar commit para o GitHub insira:
+
+git push -u origin main
+
+Para fazer download de um repositório do GitHub para sua maquina, insira:
+
+git pull -u origin main
