@@ -1,0 +1,2 @@
+Git é ferramentas muito utilizada para armazenar seus arquivos e permitir o controle de suas versões.
+GitHub é uma ferramenta online muito utilizada pelos desenvolvedores, com o conceito de Biblioteca, para armazenar os arquivos de um projeto e suas versões, além de possibilitar compartilhar e disponibilizar o mesmo para outros desenvolvedores quando se tem um trabalho  em grupo ou simplesmente para publicá-lo.
