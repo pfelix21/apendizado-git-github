@@ -7,3 +7,10 @@ git config --global user.name "Seu Nome" [clique enter]
 git config --global user.email "seuemail@mail.com"
 
 Pronto, seu GIT está pré configurado para usar.
+
+Para a configuração do GitHub, acesse o site https://github.com e crie uma conta grátis inserindo todos seus dados necessários.
+Ao acessar seu perfil, na area superior direita da tela você consegue inserir um novo repositório "New Repository" (que será sua biblioteca online de um determinado projeto)
+- Dê um nome ao repositório
+- Insira uma descrição breve sobre o que se trata o projeto
+- Clique em Create Repository
+Ao final, uma tela irá lhe fornecer instruções para sincronizar seu Git com o repositório criado no GitHub (Veja mais comandos no arquivo "principais-comandos").
