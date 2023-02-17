@@ -1,0 +1,35 @@
+Confira aqui os principais comandos para uso no terminal do Git e GitHub
+
+Git:
+- Criando um novo repositório a partir do GIT:
+    Cria ano seu explorer a pasta principal que será monitorada pelo GIT.
+    Insira no terminal ' git init ' para iniciar e criar a estrutura de arquivos do Git na sua pasta
+    ls - para listar as pastas e arquivos da pasta atual
+    cd 'nomedapastaouarquivo' - para acessar determinada pasta ou arquivo
+    cd .. - para acessar a pasta anterior da hierarquia de pastas
+
+- Criando um novo arquivo:
+    touch 'nomedoarquivo.ext' - (ext = extensão do arquivo. Ex: .txt, .js, .html, .css)
+
+- Exibindo o status dos arquivos no GIT:
+    git status
+
+- Adicionando um ou TODOS os arquivos na indexação para fazer upload no GIT:
+    git add . - para todos os arquivos
+    git add 'nome.ext' - para um arquivo específico
+
+- Para executar o commit nos arquivos indexados acima:
+    git commit -m 'Descreva o motivo do commit (Ex.: Atualização do Texto. Commit Inicial. Etc)
+
+--------------------------- VISUALIZANDO OS LOGS -----------------------------------
+git log [Retorna informações das ultimas alterações dos arquivos commitados]
+git log --pretty=oneline [Retorna informações das ultimas alterações dos arquivos commitados de forma simplificada ema uma linha]
+git log --pretty=oneline -1 [Retorna o penultimo commit executado]
+git log --stat [Retorna os detalhes de alterações do ultimo commit]
+git diff [Para visualizar a diferença entre alterações do ultimo commit]
+git diff 'arquivo.ext' [Para visualizar a diferença entre alterações do ultimo commit de um arquivo específico]
+
+------------------------ DESFAZENDO ALETRAÇÕES ------------------------------------
+git commit --amend [para alterar o titulo do ultimo commit]
+git reset HEAD 'arquivo.ext' [para excluir um arquivo da indexação, antes do commit]
+git checkout --'arquivo.ext' [para desfazer/remover a última modificação do arquivo, retornando para o estado do último commit]
