@@ -1,0 +1,9 @@
+Para instalar o Git, basta acessar a URL https://git-scm.com/downloads e fazer o download conforme a versão do seu sitema Operacional.
+Uma vez baixado e instalado, faça uma pré configuração com seus dados de autor: Crie uma pasta desejada para utilizar o git e, com o botão direito do mouse, selecione a opção GIT BASH HERE. Isso irá abrir o prompt de comando do Git.
+Você pode utilizar o terminal de comando de sua IDE como neste caso, uso o VSCode.
+- Para configurar seu nome digite o comando a seguir substituindo as aspas:
+git config --global user.name "Seu Nome" [clique enter]
+- Para configurar seu e-mail digite o comando:
+git config --global user.email "seuemail@mail.com"
+
+Pronto, seu GIT está pré configurado para usar.
