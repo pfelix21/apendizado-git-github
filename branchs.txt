@@ -1,0 +1,9 @@
+Branch, em tradução são ramos. É como se fosse uma virtualização paralela de uma pasta e seus arquivos. É a possibilidade de criar cópias de uma árvore de arquivos base, para desenvolver features isoladas. Muito utilizado principalmente quando o projeto é colaborativo, onde cada um faz sua parte.
+- A branch principal se chama main ou master
+Comandos:
+git branch [Para exibir os branchs do projeto]
+git branch 'name' [criando uma nova branch com o nome 'name']
+git checkout 'name' [mudando para a nova branch para fazer alterações]
+git branch -D 'name' [para DELETAR uma brunch específica]
+git branch -b 'name2' [criando e alternando para uma nova brunch]
+git branch merge 'name2' [para mesclar as alterações da branch específica com a base main/master]
